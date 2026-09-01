@@ -29,8 +29,6 @@ You should see the CoWork chat interface — a clean conversational window ready
 
 Take a minute to orient yourself with the Snowflake CoWork landing page.
 
-![CoWork landing page with numbered elements](./assets/cowork-landing-annotated.png)
-
 | # | Element | What It Does |
 |---|---------|-------------|
 | 1 | **Chat input box** | Where you type natural-language questions |
@@ -38,3 +36,4 @@ Take a minute to orient yourself with the Snowflake CoWork landing page.
 | 3 | **Navigation menu** (left panel) | Create new chat session, access chat history, access saved artifacts and more |
 | 4 | **Your profile** (bottom left) | Access your user settings |
 
+![CoWork landing page with numbered elements](./assets/cowork-landing-annotated.png)
