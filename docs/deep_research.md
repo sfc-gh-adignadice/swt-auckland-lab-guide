@@ -22,7 +22,9 @@ See [Deep Research documentation](https://docs.snowflake.com/en/user-guide/snowf
     1. Click the **+ button** in the Chat box
     2. Toggle the **Deep Research** switch to the **on** position
 
-    <img src="./assets/deep-research-button.png" alt="Deep Research Toggle Button" width="400">
+    ![Deep Research Toggle Button](./assets/deep-research-button.png)
+
+    3. Enter the following prompt:
 
     ```text
     Investigate the Apex Kitchen Co supply disruption's impact on Kitchen Appliances. Quantify the total revenue loss, identify which products and stores were most affected, and recommend whether we should activate a backup supplier or wait for resolution on September 8.
@@ -46,14 +48,16 @@ The final report includes:
 !!! action "Turn off Deep Research and generate a PDF"
 
     1. Click the **X** button on the **Research** pill in the chat box to turn off Deep Research
-
-    <img src="./assets/close-deep-research.png" alt="Close Deep Research" width="400">
+    2. Enter the following prompt:
 
     ```text
     Create a PDF of the Apex Kitchen Co supply investigation output
     ```
 
-**What to expect:** CoWork will produce a downloadable PDF of the deep research output. Once the PDF has been generated click the **Download** icon to download the report. You can then open the report to see the analysis.
+**What to expect:** CoWork will produce a downloadable PDF of the deep research output. Once the PDF has been generated you can click the **expand** icon to preview the PDF in CoWork or click the **Download** icon to download the report.
+
+![](./assets/cocopdf.png)
+
 
 **New feature — Built-in skills and code execution environment:** Snowflake CoWork is bundled with skills that allow it to perform certain tasks such as generating a PDF. If needed, CoWork can also access a secure sandbox to create and execute code.
 
