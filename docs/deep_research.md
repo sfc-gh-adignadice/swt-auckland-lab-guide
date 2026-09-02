@@ -21,7 +21,9 @@ See [Deep Research documentation](https://docs.snowflake.com/en/user-guide/snowf
 
     1. Click the **+ button** in the Chat box
     2. Toggle the **Deep Research** switch to the **on** position
-    <img src="./assets/deep-research-button.png" alt="Deep Research Toggle Button" width="400">
+
+        <img src="./assets/deep-research-button.png" alt="Deep Research Toggle Button" width="400">
+
     3. Enter the following prompt:
 
     ```text
@@ -46,7 +48,9 @@ The final report includes:
 !!! action "Turn off Deep Research and generate a PDF"
 
     1. Click the **X** button on the **Research** pill in the chat box to turn off Deep Research
-    <img src="./assets/close-deep-research.png" alt="Close Deep Research Toggle Button" width="400">
+
+        <img src="./assets/close-deep-research.png" alt="Close Deep Research Toggle Button" width="400">
+
     2. Enter the following prompt:
 
     ```text
