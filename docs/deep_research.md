@@ -46,6 +46,7 @@ The final report includes:
 !!! action "Turn off Deep Research and generate a PDF"
 
     1. Click the **X** button on the **Research** pill in the chat box to turn off Deep Research
+    <img src="./assets/close-deep-research.png" alt="Close Deep Research Toggle Button" width="400">
     2. Enter the following prompt:
 
     ```text

@@ -35,7 +35,7 @@ ProBlend 9000 is growing — but it's not our only blender. Let's see how it sta
     3. Select **PRODUCT_NAME** from the column list
     4. Tick **Apex InfuseMax Blender**, **ProBlend 5000**, and **ProBlend 9000**
     5. Click **Apply**
-    ![Filter by product name](./assets/product_name_filter.png)
+    <img src="./assets/product_name_filter.png" alt="Filter by product name" width="400">
     6. Click the **->|** icon to the left of the chart title to hide the explore pane. 
 
 This gives you a cleaner visual for your buyer meeting — the three lines that matter: your growth story (ProBlend 9000), the incumbent (ProBlend 5000), and the supplier-impacted product (Apex InfuseMax Blender).
