@@ -83,7 +83,7 @@ It's Monday morning. Before diving into data, Jordan checks what's on for the da
 !!! action "Ask for a specific chart format"
 
     ```text
-    Which products in Kitchen Appliances declined the most? Show as a horizontal bar chart sorted by revenue decline
+    Which products in Kitchen Appliances declined the most? Show as a horizontal bar chart sorted by revenue decline largest to smallest
     ```
 
 **What to expect:** A horizontal bar chart ranking products by decline. You may notice the top decliners share something in common — keep that in mind for the next question.

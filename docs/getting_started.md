@@ -16,10 +16,14 @@
         sfsehol-snowflake_world_tour_auckland_ueylku
         ```
 
-    2. Click this link to open Snowflake CoWork: [Snowflake CoWork](https://ai.snowflake.com)
+    2. Open this link **in a new tab** to open Snowflake CoWork: <a href="https://ai.snowflake.com" target="_blank">Snowflake CoWork</a>
     3. Click the **Sign In** button then paste the account identifier into the field labelled **Enter your account identifier or account URL**.
     4. Click the **Sign In** button
     5. When prompted, enter the **Username** and **Password** provided by your lab instructor
+
+!!! note "Already a CoWork user?"
+
+    If you already use Snowflake CoWork with a different account, you may be automatically signed in to your existing account. If so, click your **profile icon** (bottom left) → **Sign Out**, then follow the steps above to sign in with the lab account.
 
 You should see the CoWork chat interface — a clean conversational window ready for your questions.
 

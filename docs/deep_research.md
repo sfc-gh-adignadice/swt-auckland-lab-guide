@@ -21,9 +21,7 @@ See [Deep Research documentation](https://docs.snowflake.com/en/user-guide/snowf
 
     1. Click the **+ button** in the Chat box
     2. Toggle the **Deep Research** switch to the **on** position
-
-    ![Deep Research Toggle Button](./assets/deep-research-button.png)
-
+    <img src="./assets/deep-research-button.png" alt="Deep Research Toggle Button" width="400">
     3. Enter the following prompt:
 
     ```text

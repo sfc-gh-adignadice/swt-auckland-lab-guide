@@ -16,7 +16,9 @@ plugins:
   - glightbox
 theme:
   name: material
+  custom_dir: overrides
   features:
+    - announce.dismiss
     - toc.integrate
     - content.tabs.link
     - content.code.copy

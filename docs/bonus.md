@@ -43,44 +43,20 @@ You may have tasks or workflows that you need to run every day, or once week, or
 
 **New feature — Automations:** Get CoWork to take a one off prompt, report, or analysis and turn it into a recurring one.
 
-## Bonus 3 - Governance Demo
-
-> *Instructor-led demonstration. Participants watch on the projector.*
-
-The instructor asks the same question using two different roles:
-!!! action "Ask the same question with two different roles"
-```text
-What is total revenue across all departments this year?
-```
-
-| Role | Result |
-|------|--------|
-| HOL_ATTENDEE_ROLE | Returns only Home & Kitchen |
-| ACCOUNTADMIN | Returns all four departments |
-
-> *"Same agent, same question, same data. The only difference is the role. Jordan sees their world. The Commercial Director sees everything. No one configured this per-agent — it's inherited from the row access policy your admin already set up."*
-
-**New feature — Row-Level Security inheritance:** CoWork doesn't have its own security model. It inherits whatever RBAC and row access policies your admin already configured in Snowflake. See [Row Access Policies documentation](https://docs.snowflake.com/en/user-guide/security-row-intro).
-
 ---
 
-## Bonus 4 - Cost and Monitoring
+## Bonus 3 - Governance Demo
 
-> **For admins and SE conversations:** CoWork interactions consume Cortex AI credits. Usage is fully observable:
+Throughout this lab you've been working with **Home & Kitchen** data — but Mosaic Retail has other departments too (Electronics, Fashion, Sports & Outdoors). Let's see what happens when you try to access data outside your role.
 
-```sql
--- Monitor CoWork usage by user (admin query — not part of this lab)
-SELECT USER_NAME, COUNT(*) AS INTERACTIONS, SUM(CREDITS) AS TOTAL_CREDITS
-FROM SNOWFLAKE.ACCOUNT_USAGE.CORTEX_AI_FUNCTIONS_USAGE_HISTORY
-WHERE FUNCTION_NAME = 'AGENT'
-GROUP BY USER_NAME
-ORDER BY TOTAL_CREDITS DESC;
-```
+!!! action "Try to access data outside your department"
 
-Key points:
-- Every interaction is metered and attributable to a specific user and role
-- Admins can set budgets and alerts using Snowflake's standard cost governance
-- Deep Research consumes more credits than standard Q&A (multiple sub-queries)
-- No opaque per-seat licensing — you pay for what you use
+    ```text
+    Can you show me the sales data for the Electronics department?
+    ```
 
-See [Cortex AI Usage History](https://docs.snowflake.com/en/sql-reference/account-usage/cortex_ai_functions_usage_history).
+**What to expect:** CoWork will **not** return Electronics data. Your role (HOL_ATTENDEE_ROLE) is restricted to Home & Kitchen only via a row access policy. CoWork inherits the same security controls that your Snowflake admin has already configured — there's no separate security model to manage.
+
+This means the same agent, same data, same question can return different results depending on who's asking. A Commercial Director with full access would see all four departments. You, as a Category Manager for Home & Kitchen, see only your world.
+
+**New feature — Row-Level Security inheritance:** CoWork doesn't have its own security model. It inherits whatever RBAC and row access policies your admin already configured in Snowflake. See [Row Access Policies documentation](https://docs.snowflake.com/en/user-guide/security-row-intro).
