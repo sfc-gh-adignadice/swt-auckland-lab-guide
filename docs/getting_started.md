@@ -41,3 +41,23 @@ Take a minute to orient yourself with the Snowflake CoWork landing page.
 | 4 | **Your profile** (bottom left) | Access your user settings |
 
 ![CoWork landing page with numbered elements](./assets/cowork-landing-annotated.png)
+
+## Step 3: Validate Your Role and Warehouse
+
+Before we start, let's make sure your account is configured correctly.
+
+!!! action "Check your active Role and Warehouse"
+
+    1. Click on your **profile icon** (bottom left corner)
+    2. Click **Settings**
+    3. Confirm the following values are set:
+        - **Role:** `HOL_ATTENDEE_ROLE`
+        - **Warehouse:** `HOL_WH`
+
+        <img src="./assets/validate-role-wh.png" alt="Validate Role and Warehouse settings" width="400">
+
+    4. If either value is different, click the dropdown and select the correct one
+
+!!! note "Why does this matter?"
+
+    Your role controls which data you can see, and the warehouse provides the compute for your queries. If these aren't set correctly, you may get errors or unexpected results during the lab. If you don't see these options, ask for help.
