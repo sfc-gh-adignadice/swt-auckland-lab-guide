@@ -20,7 +20,7 @@ See [Deep Research documentation](https://docs.snowflake.com/en/user-guide/snowf
 !!! action "Enable Deep Research and investigate the supply disruption"
 
     1. Click the **+ button** in the Chat box
-    2. Toggle the **Deep Research** switch to the **on** position
+    2. Toggle the **Deep Research** switch to the **on** position. You should then see a "Research" pill pop up underneath your chat box.
 
         <img src="./assets/deep-research-button.png" alt="Deep Research Toggle Button" width="400">
 
